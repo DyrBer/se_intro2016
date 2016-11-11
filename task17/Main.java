@@ -10,7 +10,7 @@ public static boolean pal(String n1) {
     for (i = 0 ; i < (n1.length()-1) ; i++)
  
         if ( (n1.charAt(i)) != (n1.charAt( (n1.length()-1-i) )) ) {
-        k : k++;
+        k++;
     }
  
     b = ( k==0 ) ? true : false;
