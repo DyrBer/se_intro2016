@@ -8,7 +8,7 @@ public class SqrOperation extends UnaryOperation {
         return p * p;
     }
     protected String doString(Expression e){
-        return (value + "^2");
+        return ("(" + value + ")^2");
     }
 
 }
