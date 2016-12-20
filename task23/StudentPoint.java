@@ -1,6 +1,6 @@
 public class StudentPoint {
-    int studentId;
-    int studentPoint;
+    private int studentId;
+    private int studentPoint;
 
     StudentPoint(int studentId, int studentPoint) {
         this.studentId = studentId;
